@@ -11,12 +11,9 @@ public class CollectionEjemplo {
         // Paso 1: Declaracion 
         Collection<String> listaDeTareas = new ArrayList<>();
 
-
         // Paso 2: Asignacion de valores (Agregar nueva tarea)
         listaDeTareas.add("Entregar foro 1 de POO");
 
-
-        
         // Muestra lista de tareas 
         System.out.println("Lista de Tareas: " + listaDeTareas);
         
@@ -26,6 +23,7 @@ public class CollectionEjemplo {
 
         
         System.out.println("Lista de Tareas después de completar una tarea: " + listaDeTareas);
+        
     }
 }
 
